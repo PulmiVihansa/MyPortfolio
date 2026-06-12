@@ -25,13 +25,19 @@ export const NavLinks=[
 
     {
         id:5,
+        url:'#certificates',
+        Label:'Certificates'
+    },
+
+    {
+        id:6,
         url:'#education',
         Label:'Education'
     },
 
 
     {
-        id:6,
+        id:7,
         url:'#contact',
         Label:'Contact'
     },

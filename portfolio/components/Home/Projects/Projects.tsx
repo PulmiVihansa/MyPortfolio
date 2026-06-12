@@ -22,6 +22,65 @@ type Project = {
 const projects: Project[] = [
   {
     id: 1,
+    title: "Superstore Data Warehouse & BI Solution",
+    description:
+      "End-to-end Data Warehouse solution with ETL pipelines, Star Schema modeling, SSAS OLAP Cubes, and interactive Power BI dashboards.",
+    technologies:  [
+    "SQL Server",
+    "SSIS",
+    "SSAS",
+    "Power BI",
+    "ETL",
+    "OLAP",
+    "Data Warehouse"
+  ],
+    github: "https://github.com/PulmiVihansa/Superstore-DataWarehouse-Project",
+    image: "/images/data2.png",
+  },
+  {
+    id: 2,
+    title: "Noise in Input Data & Model Robustness",
+    description:
+      "Machine Learning research project analyzing the impact of Gaussian noise, missing values, and outliers on model robustness using Linear Regression and Random Forest models.",
+    technologies: [
+    "Python",
+    "Machine Learning",
+    "Random Forest",
+    "Linear Regression"
+  ],
+    github: "https://github.com/PulmiVihansa/Input-data-reduces-model-robustness",
+    live: "https://input-data-reduces-model-robustness.vercel.app/",
+    image: "/images/noise.png",
+  },
+  {
+    id: 3,
+    title: "UniMatrix – Smart Campus Operations Hub",
+    description:
+      "Full-stack campus operations platform with facility booking, QR check-ins, incident ticketing, OAuth authentication, RBAC, and real-time notifications.",
+    technologies: [
+    "React",
+    "Spring Boot",
+    "MongoDB",
+    "OAuth",
+    "JWT",
+    "REST API"
+  ],
+    github: "https://github.com/PulmiVihansa/smart-campus-hub",
+    live: "https://smart-campus-hub-three.vercel.app/",
+    image: "/images/unimatrix.png",
+  },
+   {
+    id: 4,
+    title: "Portfolio Website",
+    description:
+      "A modern portfolio showcasing projects, skills, and animations.",
+    technologies: ["React", "TypeScript", "CSS"],
+    github: "https://github.com/pulli27/MyPortfolio",
+    live: "https://pulmivihansa-portfolio.vercel.app/",
+    image: "/images/port.png",
+  },
+  {
+    id: 5,
     title: "PackPal – Smart Bag Selling System",
     description:
       "A full-stack bag-selling e-commerce system featuring authentication, customization, real-time stock updates, secure checkout, and admin dashboards.",
@@ -30,7 +89,7 @@ const projects: Project[] = [
     image: "/images/packpal.jpg",
   },
   {
-    id: 2,
+    id: 6,
     title: "ZenTrack – Wellness & Habit Tracking App",
     description:
       "A wellness mobile app for habit tracking, mood journaling, hydration reminders, and progress insights.",
@@ -39,7 +98,7 @@ const projects: Project[] = [
     image: "/images/zentrack.png",
   },
   {
-    id: 3,
+    id: 7,
     title: "CrownCrest – Hotel Reservation System",
     description:
       "A web-based hotel booking system with secure backend staff and role management.",
@@ -48,7 +107,7 @@ const projects: Project[] = [
     image: "/images/crowncc.png",
   },
   {
-    id: 4,
+    id: 8,
     title: "Microwins – Mobile Productivity App",
     description:
       "A task and productivity app with a clean UI and intuitive navigation.",
@@ -57,7 +116,7 @@ const projects: Project[] = [
     image: "/images/microwin.png",
   },
   {
-    id: 5,
+    id: 9,
     title: "YummyGo – Food Ordering App",
     description:
       "A UI/UX-focused food ordering app designed in Figma with a smooth checkout flow.",
@@ -66,23 +125,13 @@ const projects: Project[] = [
     image: "/images/yummygo.png",
   },
   {
-    id: 6,
+    id: 10,
     title: "Immunize Hub – Vaccination Portal",
     description:
       "A digital vaccination platform with patient registration and nurse verification modules.",
     technologies: ["HTML", "CSS", "JS", "PHP", "MySQL"],
     github: "https://github.com/pulli27/ImmunizeHub",
     image: "/images/immunizehub.png",
-  },
-  {
-    id: 7,
-    title: "Portfolio Website",
-    description:
-      "A modern portfolio showcasing projects, skills, and animations.",
-    technologies: ["React", "TypeScript", "CSS"],
-    github: "https://github.com/pulli27/MyPortfolio",
-    live: "https://pulmivihansa-portfolio.vercel.app/",
-    image: "/images/port.png",
   },
 ];
 

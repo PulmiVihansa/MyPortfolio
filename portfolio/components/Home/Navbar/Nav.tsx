@@ -93,7 +93,7 @@ const Nav = ({ openNav }: Props) => {
         </div>
 
         {/* ================= DESKTOP NAV ================= */}
-        <div className="hidden md:flex items-center space-x-4 lg:space-x-10 flex-1 justify-center">
+        <div className="hidden md:flex items-center space-x-3 lg:space-x-6 xl:space-x-10 flex-1 justify-center">
           {NavLinks.map((link) => {
             const sectionId = link.url.replace("#", "");
 
@@ -105,7 +105,7 @@ const Nav = ({ openNav }: Props) => {
                 className="relative group whitespace-nowrap"
               >
                 <span
-                  className={`text-sm lg:text-base font-medium transition-colors duration-300
+                  className={`text-xs lg:text-sm xl:text-base font-medium transition-colors duration-300
                     ${
                       activeSection === sectionId
                         ? "text-[#8B6FD6]"

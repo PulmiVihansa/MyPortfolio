@@ -103,13 +103,13 @@ const Hero = () => {
 
 
               <h2 className='mt-6 text-xl sm:text-2xl md:text-3xl font-medium flex items-center flex-wrap justify-center md:justify-start gap-2'>
-                  I am a 
+                  I am an 
                   <span className='text-[#826cd2] font-semibold'>
                       <Typewriter options={{
                           strings:[
-                              'Full Stack Developer',
-                              'UI / UX Designer',
-                              'Web Developer'
+                              'Aspiring Data Engineer',
+                              'Data Analyst',
+                              'AI/ML Engineer',
                 
                           ],
                           autoStart: true,
@@ -131,9 +131,7 @@ const Hero = () => {
   mx-auto
   text-justify
 ">
-  I’m a dedicated full-stack developer with a strong focus on backend engineering and building scalable,
-  high-performance systems. I enjoy crafting modern web applications with clean user experiences,
-  using current technologies to deliver reliable and efficient solutions.
+  I’m an aspiring Data Engineer and Data Science undergraduate passionate about designing data-driven solutions. My interests include data warehousing, ETL pipelines, database management, business intelligence, and analytics. I enjoy working with SQL, Python, and Power BI to transform complex datasets into valuable insights that support informed decision-making.
 </p>
 
 </div>

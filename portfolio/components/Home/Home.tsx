@@ -3,8 +3,9 @@
 import React from "react";
 import Hero from "./Hero/Hero";
 import About from "./About/About";
-import SkillsSection from "./Skills/Skills";
+import SkillsSection from "./Skills";
 import Projects from "./Projects/Projects";
+import Certificates from "./Certificates";
 import Education from "./Education/Education";
 import ContactSection from "./Contact/Contact";
 import Footer from "./Footer/Footer";
@@ -22,6 +23,7 @@ const Home = () => {
         <About />
         <SkillsSection />
         <Projects />
+        <Certificates />
         <Education />
         <ContactSection />
         <Footer />

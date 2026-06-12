@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { FaFigma, FaCode, FaDatabase } from "react-icons/fa";
+import { FaDatabase, FaChartBar, FaBrain } from "react-icons/fa";
 import { Lora } from "next/font/google";
 
 const lora = Lora({
@@ -12,22 +12,22 @@ const lora = Lora({
 
 const services = [
   {
-    icon: <FaCode className="w-12 h-12" />,
-    title: "Frontend Development",
-    description:
-      "Developing responsive and interactive web applications using modern technologies like Node.js, React, Next.js, and TypeScript.",
-  },
-  {
     icon: <FaDatabase className="w-12 h-12" />,
-    title: "Backend Development",
+    title: "Data Engineering",
     description:
-      "Developing robust backend systems with secure APIs, efficient database management, and scalable server-side architectures.",
+      "Designing data warehouses, developing ETL pipelines, and building scalable data architectures to support efficient data processing and analytics.",
   },
   {
-    icon: <FaFigma className="w-12 h-12" />,
-    title: "UI / UX Design",
+    icon: <FaChartBar className="w-12 h-12" />,
+    title: "Business Intelligence",
     description:
-      "Designing functional and aesthetically refined interfaces focused on user experience and accessibility.",
+      "Creating interactive dashboards and analytical reports using Power BI to transform raw data into actionable business insights.",
+  },
+  {
+    icon: <FaBrain className="w-12 h-12" />,
+    title: "Machine Learning & Analytics",
+    description:
+      "Applying machine learning and statistical techniques to uncover patterns, generate predictions, and solve real-world challenges.",
   },
 ];
 
@@ -115,25 +115,27 @@ const About = () => {
               lg:-mt-9
             "
           >
-            <p>
-            I’m <strong className="text-white">Pulmi Vihansa</strong>, a Data Science undergraduate at{" "}
-            <strong className="text-white">SLIIT</strong> and a passionate{" "}
-             <strong className="text-white">full-stack developer</strong> with a strong focus on backend engineering, cloud technologies, and building scalable system architectures.
-              Over the past few years, I’ve completed {" "}
-              <strong className="text-white">4+ full-stack projects </strong>
-              using technologies such as MERN, Java JSP/Servlet, PHP-MySQL, and Android, gaining hands-on experience in developing secure APIs, real-time features, and production-ready applications.
-               I’ve also collaborated on projects that required working with international standards and Agile workflows, strengthening my ability to deliver reliable solutions in team-based environments.
-              
-              
-            </p>
+            
+<p>
+  I’m <strong className="text-white">Pulmi Vihansa</strong>, a Data Science undergraduate at{" "}
+  <strong className="text-white">SLIIT</strong> with a strong interest in{" "}
+  <strong className="text-white">Data Engineering, Data Analyst, AI/ML Engineer, and Business Intelligence</strong>.
+  Over the past few years, I’ve gained hands-on experience in{" "}
+  <strong className="text-white">Data Warehousing, ETL Development, SQL, Power BI, and Python</strong> {" "}
+  through academic and team-based projects. I have designed data warehouse solutions, developed ETL pipelines,
+  built interactive dashboards, and worked on machine learning projects focused on data analysis and predictive modeling.
+</p>
 
-            <p>
-            I’m skilled in <strong className="text-white">Java, JavaScript, Python, C#, React.js, Node.js, SQL, MongoDB, AWS, Azure, and .NET, </strong> 
-            and I enjoy transforming complex requirements into clean, efficient, and well-structured systems. 
-            Beyond coding, I value continuous learning, problem-solving, and writing maintainable code that scales. 
-            My long-term goal is to contribute to high-quality digital solutions that deliver meaningful real-world impact.
-              
-            </p>
+<p>
+  I’m skilled in{" "}
+  <strong className="text-white">
+    Python, SQL, Power BI, SSIS, SSAS, Machine Learning, MongoDB, AWS, Azure, and .NET
+  </strong>,
+  and I enjoy transforming complex datasets into meaningful insights and data-driven solutions.
+  Beyond technical expertise, I value continuous learning, analytical thinking, and collaborative problem-solving.
+  My goal is to build innovative data solutions that help organizations make informed decisions and create measurable real-world impact.
+</p>
+
 
         
           </div>
