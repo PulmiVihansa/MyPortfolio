@@ -37,8 +37,26 @@ const projects: Project[] = [
     github: "https://github.com/PulmiVihansa/Superstore-DataWarehouse-Project",
     image: "/images/data2.png",
   },
+ {
+  id: 2,
+  title: "Python ETL & Data Quality Framework",
+  description:
+    "Automated ETL pipeline built with Python and SQL Server featuring data quality validation, Star Schema modeling, and interactive Power BI dashboards.",
+  technologies: [
+    "Python",
+    "Pandas",
+    "SQL Server",
+    "ETL",
+    "Data Quality",
+    "Power BI",
+    "Star Schema",
+    "Data Warehouse"
+  ],
+  github: "https://github.com/PulmiVihansa/Python-ETL-DataQuality-Framework",
+  image: "/images/etlll.png",
+},
   {
-    id: 2,
+    id: 3,
     title: "Noise in Input Data & Model Robustness",
     description:
       "Machine Learning research project analyzing the impact of Gaussian noise, missing values, and outliers on model robustness using Linear Regression and Random Forest models.",
@@ -53,7 +71,7 @@ const projects: Project[] = [
     image: "/images/noise.png",
   },
   {
-    id: 3,
+    id: 4,
     title: "UniMatrix – Smart Campus Operations Hub",
     description:
       "Full-stack campus operations platform with facility booking, QR check-ins, incident ticketing, OAuth authentication, RBAC, and real-time notifications.",
@@ -70,7 +88,7 @@ const projects: Project[] = [
     image: "/images/unimatrix.png",
   },
    {
-    id: 4,
+    id: 5,
     title: "Portfolio Website",
     description:
       "A modern portfolio showcasing projects, skills, and animations.",
@@ -80,7 +98,7 @@ const projects: Project[] = [
     image: "/images/port.png",
   },
   {
-    id: 5,
+    id: 6,
     title: "PackPal – Smart Bag Selling System",
     description:
       "A full-stack bag-selling e-commerce system featuring authentication, customization, real-time stock updates, secure checkout, and admin dashboards.",
@@ -89,7 +107,7 @@ const projects: Project[] = [
     image: "/images/packpal.jpg",
   },
   {
-    id: 6,
+    id: 7,
     title: "ZenTrack – Wellness & Habit Tracking App",
     description:
       "A wellness mobile app for habit tracking, mood journaling, hydration reminders, and progress insights.",
@@ -98,7 +116,7 @@ const projects: Project[] = [
     image: "/images/zentrack.png",
   },
   {
-    id: 7,
+    id: 8,
     title: "CrownCrest – Hotel Reservation System",
     description:
       "A web-based hotel booking system with secure backend staff and role management.",
@@ -107,7 +125,7 @@ const projects: Project[] = [
     image: "/images/crowncc.png",
   },
   {
-    id: 8,
+    id: 9,
     title: "Microwins – Mobile Productivity App",
     description:
       "A task and productivity app with a clean UI and intuitive navigation.",
@@ -116,7 +134,7 @@ const projects: Project[] = [
     image: "/images/microwin.png",
   },
   {
-    id: 9,
+    id: 10,
     title: "YummyGo – Food Ordering App",
     description:
       "A UI/UX-focused food ordering app designed in Figma with a smooth checkout flow.",
@@ -125,7 +143,7 @@ const projects: Project[] = [
     image: "/images/yummygo.png",
   },
   {
-    id: 10,
+    id: 11,
     title: "Immunize Hub – Vaccination Portal",
     description:
       "A digital vaccination platform with patient registration and nurse verification modules.",
